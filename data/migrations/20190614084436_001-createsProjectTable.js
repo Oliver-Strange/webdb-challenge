@@ -10,7 +10,6 @@ exports.up = function(knex, Promise) {
       .boolean("completed")
       .notNullable()
       .defaultTo(false);
-    tbl.timestamps(true, true);
   });
 };
 
